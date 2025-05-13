@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-T">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marinez Almeida - QA Tester</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* bg-gray-900 */
+            color: #D1D5DB; /* text-gray-300 */
+        }
+        .section-title {
+            color: #38BDF8; /* text-sky-400 */
+        }
+        .card {
+            background-color: #1F2937; /* bg-gray-800 */
+            border: 1px solid #374151; /* border-gray-700 */
+        }
+        .btn-contact {
+            transition: all 0.3s ease;
+        }
+        .btn-contact:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .tech-icon {
+            font-size: 1.5rem; /* text-2xl */
+            margin-right: 0.5rem; /* mr-2 */
+            color: #60A5FA; /* text-blue-400 */
+        }
+        /* Custom scrollbar for a more modern look */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #1F2937; /* bg-gray-800 */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #38BDF8; /* text-sky-400 */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0EA5E9; /* text-sky-500 */
+        }
+    </style>
+</head>
+<body class="antialiased">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8 max-w-5xl">
+
+        <header class="flex flex-col sm:flex-row items-center mb-12">
+            <div class="w-40 h-40 sm:w-48 sm:h-48 mb-6 sm:mb-0 sm:mr-8 rounded-full overflow-hidden border-4 border-sky-500 shadow-lg">
+                <img src="C:\Minha apresentação\imagens" alt="Foto de Marinez Almeida" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/200x200/374151/FFFFFF?text=Foto+Indispon%C3%ADvel';">
+            </div>
+            <div>
+                <h1 class="text-4xl sm:text-5xl font-bold text-white">Marinez Almeida</h1>
+                <p class="text-xl sm:text-2xl text-sky-400 mt-1">QA Tester | FIT - Flextronics Instituto de Tecnologia</p>
+                <p class="text-gray-400 mt-2"><i class="fas fa-map-marker-alt mr-2"></i>Brasil</p>
+                <div class="mt-4 flex space-x-4">
+                    <a href="mailto:maricristinaalmeida@gmail.com" class="btn-contact inline-flex items-center bg-sky-500 hover:bg-sky-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md">
+                        <i class="fas fa-envelope mr-2"></i> E-mail
+                    </a>
+                    <a href="tel:+5514982178083" class="btn-contact inline-flex items-center bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md">
+                        <i class="fas fa-phone mr-2"></i> Telefone
+                    </a>
+                    <a href="https://www.linkedin.com/in/marinezalmeida" target="_blank" rel="noopener noreferrer" class="btn-contact inline-flex items-center bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md">
+                        <i class="fab fa-linkedin mr-2"></i> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section id="resumo" class="mb-10">
+            <h2 class="text-3xl font-semibold mb-6 section-title border-b-2 border-sky-500 pb-2"><i class="fas fa-user-tie mr-2"></i>Resumo Profissional</h2>
+            <div class="card p-6 rounded-lg shadow-xl">
+                <p class="text-lg leading-relaxed">
+                    Profissional de QA com sólida experiência em testes manuais, criação e execução de casos de teste, documentação de bugs e colaboração com equipes ágeis. Atualmente trabalho no FIT Instituto de Tecnologia, onde contribuo para a entrega de soluções de software com qualidade e eficiência. Em formação em Análise e Desenvolvimento de Sistemas, venho aprofundando conhecimentos em automação de testes e integração contínua com ferramentas como Selenium, Postman e Git. Experiência anterior em educação trouxe habilidades interpessoais valiosas como empatia, comunicação e didática.
+                </p>
+            </div>
+        </section>
+
+        <section id="habilidades" class="mb-10">
+            <h2 class="text-3xl font-semibold mb-6 section-title border-b-2 border-sky-500 pb-2"><i class="fas fa-cogs mr-2"></i>Principais Habilidades Técnicas</h2>
+            <div class="card p-6 rounded-lg shadow-xl">
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-lg">
+                    <li class="flex items-center"><i class="fas fa-check-circle tech-icon"></i>Testes manuais (funcionais, regressão, exploratórios)</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle tech-icon"></i>Testes de integração, usabilidade e APIs</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle tech-icon"></i>Ferramentas: Git, GitHub, GitLab, Jira, Confluence, Trello</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle tech-icon"></i>SQL básico (validação de dados em banco)</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle tech-icon"></i>Metodologias ágeis: Scrum e Kanban</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle tech-icon"></i>BDD/TDD e lógica de programação</li>
+                    <li class="flex items-center"><i class="fas fa-check-circle tech-icon"></i>Boas práticas de QA e documentação</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="experiencia" class="mb-10">
+            <h2 class="text-3xl font-semibold mb-6 section-title border-b-2 border-sky-500 pb-2"><i class="fas fa-briefcase mr-2"></i>Experiência Profissional</h2>
+            <div class="space-y-8">
+                <div class="card p-6 rounded-lg shadow-xl">
+                    <h3 class="text-xl font-semibold text-white">Testadora de Software</h3>
+                    <p class="text-sky-400 font-medium">FIT - Instituto de Tecnologia</p>
+                    <p class="text-gray-400 text-sm mb-2">Outubro 2022 - Atual</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-1">
+                        <li>Testes manuais (funcionais e regressão), documentação de bugs (Jira), cerimônias ágeis, suporte à documentação.</li>
+                    </ul>
+                </div>
+                <div class="card p-6 rounded-lg shadow-xl">
+                    <h3 class="text-xl font-semibold text-white">Operadora de Produção</h3>
+                    <p class="text-sky-400 font-medium">Flex</p>
+                    <p class="text-gray-400 text-sm mb-2">Abril 2020 - Agosto 2022</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-1">
+                        <li>Inspeção visual de componentes, qualidade em ambiente de alta demanda.</li>
+                    </ul>
+                </div>
+                 <div class="card p-6 rounded-lg shadow-xl">
+                    <h3 class="text-xl font-semibold text-white">Estágio em Educação Especial</h3>
+                    <p class="text-sky-400 font-medium">Prefeitura de Sorocaba</p>
+                    <p class="text-gray-400 text-sm mb-2">Janeiro 2020 - Dezembro 2020</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-1">
+                        <li>Suporte pedagógico a crianças com necessidades especiais.</li>
+                    </ul>
+                </div>
+                <div class="card p-6 rounded-lg shadow-xl">
+                    <h3 class="text-xl font-semibold text-white">Professora</h3>
+                    <p class="text-sky-400 font-medium">Prefeitura de Conchas</p>
+                    <p class="text-gray-400 text-sm mb-2">Junho 2018 - Dezembro 2018</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-1">
+                        <li>Planejamento e condução de aulas para crianças de 6 a 11 anos.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacao" class="mb-10">
+            <h2 class="text-3xl font-semibold mb-6 section-title border-b-2 border-sky-500 pb-2"><i class="fas fa-graduation-cap mr-2"></i>Formação Acadêmica</h2>
+            <div class="space-y-6">
+                <div class="card p-6 rounded-lg shadow-xl">
+                    <h3 class="text-xl font-semibold text-white">Análise e Desenvolvimento de Sistemas</h3>
+                    <p class="text-sky-400 font-medium">Centro Universitário Facens</p>
+                    <p class="text-gray-400 text-sm">2023 - 2025</p>
+                </div>
+                <div class="card p-6 rounded-lg shadow-xl">
+                    <h3 class="text-xl font-semibold text-white">Pedagogia</h3>
+                    <p class="text-sky-400 font-medium">UNINTER</p>
+                    <p class="text-gray-400 text-sm">2017 - 2021</p>
+                </div>
+                <div class="card p-6 rounded-lg shadow-xl">
+                    <h3 class="text-xl font-semibold text-white">Gestão de Qualidade</h3>
+                    <p class="text-sky-400 font-medium">Qualimoura</p>
+                    <p class="text-gray-400 text-sm">Outubro de 2021</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-12 py-6 border-t border-gray-700">
+            <p class="text-gray-500">&copy; <span id="currentYear"></span> Marinez Almeida. Todos os direitos reservados.</p>
+            <p class="text-gray-500 text-sm mt-1">Desenvolvido com <i class="fas fa-heart text-red-500"></i> e Tailwind CSS.</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Define o ano atual no rodapé
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
